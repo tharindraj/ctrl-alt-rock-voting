@@ -1,0 +1,248 @@
+{
+  "votingOpen": true,
+  "scoreWeights": {
+    "judges": 70,
+    "audience": 30
+  },
+  "results": {
+    "published": false,
+    "winners": {}
+  },
+  "eventName": "CTRL + ALT + ROCK",
+  "eventDescription": "Online Music Competition",
+  "votingEnabled": true,
+  "judgeVotingEnabled": true,
+  "audienceVotingEnabled": true,
+  "votingStartTime": "2025-10-12T19:30",
+  "votingEndTime": "2025-10-12T20:42",
+  "maxVotesPerUser": 2,
+  "emailNotifications": true,
+  "requireEmailVerification": false,
+  "allowAnonymousVoting": false,
+  "showLiveResults": false,
+  "autoGenerateLoginCodes": true,
+  "judgeScoreWeight": 70,
+  "audienceVoteWeight": 30,
+  "scoringCriteria": [
+    {
+      "name": "Vocal Quality",
+      "weight": 25,
+      "maxScore": 10
+    },
+    {
+      "name": "Song Choice",
+      "weight": 20,
+      "maxScore": 10
+    },
+    {
+      "name": "Stage Presence",
+      "weight": 25,
+      "maxScore": 10
+    },
+    {
+      "name": "Overall Performance",
+      "weight": 30,
+      "maxScore": 10
+    }
+  ],
+  "categoryScoringCriteria": {
+    "cat1": [
+      {
+        "name": "Musical Technique / Execution",
+        "description": "Tightness among band members, clean playing, correctness of notes, rhythm accuracy, dynamic control, balance between instruments",
+        "weight": 25,
+        "maxScore": 10
+      },
+      {
+        "name": "Creativity & Originality / Arrangement",
+        "description": "Interesting song arrangements, originality or novel interpretations",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Vocal / Singing (if applicable)",
+        "description": "Quality of lead and backing vocals, blending, diction, pitch, harmony",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Stage Presence & Showmanship",
+        "description": "Engagement with audience, movement, confidence, charisma",
+        "weight": 20,
+        "maxScore": 10
+      },
+      {
+        "name": "Set Flow / Pacing & Use of Time",
+        "description": "Smooth transitions between songs, effective use of time",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Sound / Balance / Mix",
+        "description": "Balance between instruments and vocals, clarity, dynamics",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Bonus / Intangibles",
+        "description": "Improvisation, risk-taking, audience reaction, overall impression",
+        "weight": 5,
+        "maxScore": 10
+      }
+    ],
+    "cat2": [
+      {
+        "name": "Vocal Quality / Tone",
+        "description": "Warmth, resonance, consistency throughout vocal range",
+        "weight": 20,
+        "maxScore": 10
+      },
+      {
+        "name": "Pitch & Intonation / Accuracy",
+        "description": "Hitting correct notes, staying in tune, control through transitions",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Breath Control / Support / Dynamics",
+        "description": "Ability to sustain phrases, control of dynamics",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Expression & Interpretation",
+        "description": "Emotional connection, phrasing, storytelling",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Diction / Clarity / Enunciation",
+        "description": "Clarity of lyrics, correct pronunciation",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Stage Presence / Performance",
+        "description": "Confidence, connection with audience, movement, expression",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Song Choice / Difficulty / Originality",
+        "description": "Appropriateness of song, difficulty level, originality",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Overall Impression / Intangibles",
+        "description": "Wow factor, uniqueness, audience impact",
+        "weight": 5,
+        "maxScore": 10
+      }
+    ],
+    "6pkuqmx3tmgo0wd4l": [
+      {
+        "name": "Musical Technique / Execution",
+        "description": "Tightness among band members, clean playing, correctness of notes, rhythm accuracy, dynamic control, balance between instruments",
+        "weight": 25,
+        "maxScore": 10
+      },
+      {
+        "name": "Creativity & Originality / Arrangement",
+        "description": "Interesting song arrangements, originality or novel interpretations",
+        "weight": 20,
+        "maxScore": 10
+      },
+      {
+        "name": "Vocal / Singing (if applicable)",
+        "description": "Quality of lead and backing vocals, blending, diction, pitch, harmony",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Stage Presence & Showmanship",
+        "description": "Engagement with audience, movement, confidence, charisma",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Set Flow / Pacing & Use of Time",
+        "description": "Smooth transitions between songs, effective use of time",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Sound / Balance / Mix",
+        "description": "Balance between instruments and vocals, clarity, dynamics",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Bonus / Intangibles",
+        "description": "Improvisation, risk-taking, audience reaction, overall impression",
+        "weight": 5,
+        "maxScore": 10
+      }
+    ],
+    "n7ny4mafdmgo0wlla": [
+      {
+        "name": "Vocal Quality / Tone",
+        "description": "Warmth, resonance, consistency throughout vocal range",
+        "weight": 20,
+        "maxScore": 10
+      },
+      {
+        "name": "Pitch & Intonation / Accuracy",
+        "description": "Hitting correct notes, staying in tune, control through transitions",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Breath Control / Support / Dynamics",
+        "description": "Ability to sustain phrases, control of dynamics",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Expression & Interpretation",
+        "description": "Emotional connection, phrasing, storytelling",
+        "weight": 15,
+        "maxScore": 10
+      },
+      {
+        "name": "Diction / Clarity / Enunciation",
+        "description": "Clarity of lyrics, correct pronunciation",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Stage Presence / Performance",
+        "description": "Confidence, connection with audience, movement, expression",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Song Choice / Difficulty / Originality",
+        "description": "Appropriateness of song, difficulty level, originality",
+        "weight": 10,
+        "maxScore": 10
+      },
+      {
+        "name": "Overall Impression / Intangibles",
+        "description": "Wow factor, uniqueness, audience impact",
+        "weight": 5,
+        "maxScore": 10
+      }
+    ]
+  },
+  "emailSettings": {
+    "smtpHost": "smtp.gmail.com",
+    "smtpPort": 587,
+    "smtpUser": "ctrlaltrock2025@gmail.com",
+    "smtpPassword": "kvly newm yoss hnrm",
+    "fromEmail": "noreply@ctrlaltrock.com",
+    "fromName": "CTRL ALT ROCK 2025"
+  },
+  "updatedAt": "2025-10-12T18:34:57.493Z",
+  "votingStatusUpdatedAt": "2025-10-13T15:31:53.313Z"
+}

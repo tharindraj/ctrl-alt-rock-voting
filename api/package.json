@@ -1,0 +1,22 @@
+{
+  "name": "ctrl-alt-rock-voting-api",
+  "version": "1.0.0",
+  "description": "Azure Functions API for CTRL + ALT + ROCK Voting System",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "@azure/functions": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "csv-parse": "^5.5.2",
+    "qrcode": "^1.5.3",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.0"
+  }
+}

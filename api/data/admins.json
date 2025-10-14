@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "username": "admin",
+      "password": "$2a$10$fMiTIlkxqJ6E8VVQ7yI5I.AnPuDaVL1rHG2B03AqieNKtRo1WqHaG",
+      "firstName": "System",
+      "lastName": "Administrator",
+      "mobile": "+94773414671",
+      "email": "tharindraj@gmail.com",
+      "image": "/uploads/admin-profiles/admin1_1760287706811.jpg",
+      "createdAt": "2025-10-12T08:26:38.896Z",
+      "updatedAt": "2025-10-12T16:48:26.813Z"
+    },
+    {
+      "id": "admin1760287114176",
+      "username": "eranga",
+      "password": "$2a$10$NOqTzsn1DCErND9aQnP5wOSDUr5/q1tFbKPH/ooO.bb10cm0iGWa2",
+      "firstName": "Eranga",
+      "lastName": "SLASSCOM",
+      "email": "eranga@gmail.com",
+      "mobile": "",
+      "image": "/uploads/admin-profiles/admin1760287114176_1760287746249.jpg",
+      "createdAt": "2025-10-12T16:38:34.176Z",
+      "updatedAt": "2025-10-12T16:49:06.253Z"
+    },
+    {
+      "id": "admin1760349125692",
+      "username": "tharindra",
+      "password": "$2a$10$pVPlirO0tU4o1cAawS1om.MsAoIEIoizWfkxHiBEf6xi/4rUJZUtm",
+      "firstName": "tharindra",
+      "lastName": "jayamaha",
+      "email": "tharindraj@99x.io",
+      "mobile": "+94773414671",
+      "image": null,
+      "createdAt": "2025-10-13T09:52:05.692Z"
+    }
+  ]
+}

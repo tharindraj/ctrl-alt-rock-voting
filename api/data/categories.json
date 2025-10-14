@@ -1,0 +1,18 @@
+{
+  "list": [
+    {
+      "id": "6pkuqmx3tmgo0wd4l",
+      "name": "Band",
+      "description": "",
+      "image": "/uploads/images/1760292825712-841735540.jpeg",
+      "createdAt": "2025-10-12T18:13:45.717Z"
+    },
+    {
+      "id": "n7ny4mafdmgo0wlla",
+      "name": "Singing",
+      "description": "",
+      "image": "/uploads/images/1760292836682-604984687.png",
+      "createdAt": "2025-10-12T18:13:56.686Z"
+    }
+  ]
+}

@@ -36,19 +36,27 @@ A comprehensive full-stack voting application designed for music competitions an
 - Node.js (v14 or higher)
 - npm or yarn
 - Gmail account (for email notifications)
+- Azure Functions Core Tools (for Azure deployment)
 
 ### Local Development
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ctrl-alt-rock-voting.git
+   git clone https://github.com/tharindraj/ctrl-alt-rock-voting.git
    cd ctrl-alt-rock-voting
    ```
 
-2. **Install dependencies**
+2. **Install client dependencies**
    ```bash
+   cd client
    npm install
-   cd client && npm install && cd ..
+   ```
+
+3. **Install API dependencies**
+   ```bash
+   cd ../api
+   npm install
+   ```
    ```
 
 3. **Set up environment variables**
@@ -114,23 +122,51 @@ ctrl-alt-rock-voting/
 
 ## 🚀 Deployment
 
-Ready for deployment! Choose your preferred option:
+Ready for deployment with Azure Static Web Apps (FREE hosting)!
 
-### Option 1: Railway (One-click deployment)
-- Cost: $5/month after free credit
-- Difficulty: ⭐ (Easiest)
+### Azure Static Web Apps (Recommended - FREE)
+- **Cost**: 100% FREE forever
+- **Features**: Frontend + Backend + Custom domain
+- **Difficulty**: ⭐⭐
 
-### Option 2: Netlify + Railway (Recommended for free tier)
-- Cost: FREE frontend + $5/month backend
-- Difficulty: ⭐⭐
+### Quick Azure Deployment Steps:
 
-### Option 3: Render.com (100% Free)
-- Cost: FREE with limitations
-- Difficulty: ⭐⭐
+1. **Push to GitHub** (already done if using this repo)
 
-See detailed deployment guides:
-- 📄 [DEPLOYMENT-CHECKLIST.md](./DEPLOYMENT-CHECKLIST.md)
-- 📄 [NETLIFY-RAILWAY-DEPLOY.md](./NETLIFY-RAILWAY-DEPLOY.md)
+2. **Create Azure Static Web App**
+   - Go to [Azure Portal](https://portal.azure.com)
+   - Create new "Static Web App" resource
+   - Connect to your GitHub repository
+   - Build settings:
+     - App location: `/client`
+     - Api location: `/api`
+     - Output location: `build`
+
+3. **Configure Environment Variables** in Azure:
+   ```bash
+   JWT_SECRET=your-secret-key
+   GMAIL_USER=your-email@gmail.com  
+   GMAIL_PASS=your-app-password
+   ```
+
+4. **Deploy automatically** via GitHub Actions (configured automatically)
+
+### Local Azure Functions Development:
+
+```bash
+# Install Azure Functions Core Tools
+npm install -g azure-functions-core-tools@4
+
+# Start local development
+cd api
+cp local.settings.json.template local.settings.json
+# Edit local.settings.json with your values
+func start
+
+# In another terminal - start React app
+cd client
+npm start
+```
 
 ## ⚙️ Configuration
 
