@@ -1,0 +1,94 @@
+# online web voting system
+## Requirement: I want to create a simple web application for an event we are going to host. This event name is called "CTRL + ALT + ROCK". We are going to have the comepetition for two categories. Band Category and Singing category. We will be having 3 judges. and the audience also can vote. so the final voting comes percentage vise. (ex: 70% from Judges and 30% from audience.). Now i need to create a simple web app to let audience to vote and the judges to evaluate. 
+
+## Requirement in detail:
+- This application is a web based application which should be mobile user friendly as the audience will use this in mobile. 
+- This should have Server side and client side architecure.
+- user should be able to go to the web browser and open this.
+- When this application is launched, it should show a splash screen with an image. this image should be saved in server side in "image" folder and should load when launching the application.
+- this application is for a fun event. the colors of the event theme is like vibrant colors like purple / blue. 
+- this application should be fun and easy to use.
+- once the slash screen is shown for 2 seconds it should allow the user to login
+- there should be 3 options
+    - Login as Judge
+    - Login as audience
+    - Login as Admin
+- Login as Admin
+    - When user selects "Login as admin", it should prompt to add user name and Password.
+    - when user provides valid user name and password, they should be navigated to "Control" panel page.
+    - Control panel page
+        - User should be able to do following actions in control panel page.
+        - Categories:
+            - view / Create / Modify / Delete categories (This competition has two categories so far. "Band" and "singing")
+            - following information should be submitted
+                - category name
+                - Category image
+            - Under categories, they should be able to register the contestants.
+                - They should be able to view / edit / create / delete contestants
+                - when registering contestants, it should accept following information
+                    - Name
+                    - Company
+                    - Description (Rich text where they can add rich text values)
+                    - Image
+                - when viewing contestants, it should show above infomation in a nice way.
+        - Judges
+            - Create / view / edit / delete judges
+            - Get following information:
+                - Judge name
+                - Image
+                - Description (rich text area)
+            - Create / Reset password and copy the password. do not show. but let to copy.
+        - Admins
+            - Create / View / Edit / Delete Admins
+            - Get following information
+                - First name
+                - Last name
+                - Mobile number
+                - Email
+                - Image
+                - Reset / create / copy password
+        - Audence
+            - Import the audience as a CSV File (firstname,lastname,mobile,email,company)
+            - Admin should be able to register individual audience also from a form.
+            - Modify / delete imported audience data
+            - Generate Login Code / Generate QR Code and save it.
+            - Send an email to the members with the data.
+        - Results
+            - Admins should be able to see the judges scores and Audience voting for each category live.
+            - Finally they should be able to view the final score in this page for each category based on judge and audience score / votes.
+            - They should be able to publish the winners of each category so the judges and Audience will see. (1st / 2nd / 3rd) dont show scores.
+        - General
+            - Open / Close voting time.
+                - When the Audience login using above code, They should be able to vote for the contestants in the given category only during when the voting time is open. when it is closed. they should not be able to vote. So Admins can open / close voting window.
+            - Judging criteria for each category
+                - Admin should be able to insert / update / delele judging criteria for each category.
+                - When adding judging criteira, it should accpet following information
+                    - Criteia
+                    - Description
+                    - Weight - This means the weight of this criteia from total marks (ex :20%)
+                    - Max Score - this means the max score can be given.
+            - Score calculation
+                - they should be able to define the score machanism. Ex: 70% from judges and 30% from Audience voting.
+- Login as Judges
+    - When the user logs in as judge, they should be able to see the categories with the category image.
+    - When click on the category, they should be able to click "start judging"
+    - then it should show the contestants and when clicking on the contestants, it should show the Judging criteria we defined for that category. Then the judge should be able to eavaluate each contestant based on the judgeing category.
+    - As an example, as a judge if i login, then i should show categories with the image. and when I Click on a category, it should show the Contestants with the image and name. they sould be able to see description when clicking on them.
+    - Then i should be able to click on a contestant and start judging. It should be like a form with judging criteria we defined. Each criteria should be filled to submit. and I should be able to add a comment for each criteria. so i can note down special remakrs.
+    - I can anytime change the scores for the contestant until i click on "Finalize my marks" button which is available for the category. After that i can only read my scores and comments.
+    - As soon as I finalize my marks, other judges should be able to view my scores and comments for each.
+    - once all the judges have finalized their marks, as judges, they should be able to see the top 3 contestants in each category.
+- Login as Audience
+    - They should be able to login using the Code given.
+    - Only one active session for them. if we detect more than two sessions, then we need to keep only the latest one and logout others with a message.
+    - Once they login, they should be able to see the categories with the images.
+    - They should be able to click on the category and view the contestants and their details.
+    - They should be able to vote contestant. Only one voting per contestant but can vote many contestants
+    - if they forget the code, they should be able to provide the email address, so system will generate the code and email again.
+
+- Other requirements:
+    - Application should be secure.
+    - never bring password informaton to the frontend
+    - save data as JSONS in backend
+    - Passwords / generated codes should be saved secure in Jsons.
+    

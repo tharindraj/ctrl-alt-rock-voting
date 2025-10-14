@@ -1,0 +1,18 @@
+# Environment Variables for Railway (Backend)
+# Copy these to Railway dashboard: Project → Variables
+
+NODE_ENV=production
+PORT=5000
+JWT_SECRET=your-super-secure-jwt-secret-change-this-123456789
+FROM_EMAIL=your-email@gmail.com
+FROM_NAME=CTRL ALT ROCK Voting System
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-gmail-app-password-here
+CLIENT_URL=https://your-netlify-site.netlify.app
+
+# Instructions:
+# 1. Go to Railway project dashboard
+# 2. Click Variables tab
+# 3. Add each variable above
+# 4. Replace placeholder values with your actual credentials
+# 5. Update CLIENT_URL with your actual Netlify domain
